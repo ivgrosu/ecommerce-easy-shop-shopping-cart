@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>EasyShop</title>
+
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css"
+    />
+  </head>
+  <body>
+    <section class="header">
+      <a href="index.html"
+        ><img src="img/logo.png" class="logo" alt="logo"
+      /></a>
+
+      <div>
+        <ul class="navbar">
+          <li><a href="index.html">Home</a></li>
+          <li><a href="shop.html">Shop</a></li>
+          <li><a href="blog.html">Blog</a></li>
+          <li><a href="about.html">About</a></li>
+          <li><a href="contact.html">Contact</a></li>
+          <li class="shop-cart">
+            <a class="active" href="cart.html"
+              ><i class="fa-solid fa-cart-arrow-down"></i
+              ><span class="card-items">0</span></a
+            >
+          </li>
+          <a href="#" class="close"><i class="fa-solid fa-xmark"></i></a>
+        </ul>
+      </div>
+      <div class="mobile">
+        <a href="cart.html"
+          ><i class="fa-solid fa-cart-arrow-down"></i
+          ><span class="card-items">0</span></a
+        >
+        <i class="fas fa-outdent bar"></i>
+      </div>
+    </section>
+    <section class="shop-hero about-hero">
+      <h2>#shopWithUs</h2>
+      <p>Best experience in online shopping</p>
+    </section>
+
+    <section class="cart p1">
+      <table>
+        <thead>
+          <tr>
+            <td>Remove</td>
+            <td>Image</td>
+            <td>Product</td>
+            <td>Price</td>
+            <td>Quantity</td>
+            <td>Subtotal</td>
+          </tr>
+        </thead>
+        <tbody class="card-content"></tbody>
+      </table>
+    </section>
+
+    <section class="cart-add p1">
+      <div class="coupon">
+        <h3>Apply Coupon</h3>
+        <div>
+          <input type="text" placeholder="Coupon Number" />
+          <button>Apply</button>
+        </div>
+      </div>
+      <div class="subtotal">
+        <h3>Cart Totals</h3>
+        <table>
+          <tr>
+            <td>Cart Subtotal</td>
+            <td>$<span class="cart-total">335</span></td>
+          </tr>
+          <tr>
+            <td>Shipping</td>
+            <td>Free</td>
+          </tr>
+          <tr>
+            <td><strong>Total</strong></td>
+            <td><strong>$</strong><strong class="cart-total">335</strong></td>
+          </tr>
+        </table>
+        <button>Checkout</button>
+      </div>
+    </section>
+    -->
+
+    <footer class="p1">
+      <div class="col">
+        <img src="img/logo.png" alt="" class="logo" />
+        <h4>Contact</h4>
+        <p>
+          <strong>Address:</strong> 562 Wellington Road, Street 32, San
+          Francisco
+        </p>
+        <p><strong>Phone:</strong> +01 2222 365 /(+91) 01 2345 6789</p>
+        <p><strong>Hours:</strong> 9:00 - 15:00, Mon - Sat</p>
+        <div class="follow">
+          <h4>Follow us</h4>
+          <div class="icon">
+            <i class="fab fa-facebook-f"></i>
+            <i class="fab fa-twitter"></i>
+            <i class="fab fa-instagram"></i>
+            <i class="fab fa-pinterest-p"></i>
+            <i class="fab fa-youtube"></i>
+          </div>
+        </div>
+      </div>
+      <div class="col">
+        <h4>About</h4>
+        <a href="#">About Us</a>
+        <a href="#">Delivery Information</a>
+        <a href="#">Privacy Policy</a>
+        <a href="#">Terms & Conditions</a>
+        <a href="#">Contact Us</a>
+      </div>
+      <div class="col">
+        <h4>My Account</h4>
+        <a href="#">Sign In</a>
+        <a href="#">View Cart</a>
+        <a href="#">My Wishlist</a>
+        <a href="#">Track My Order</a>
+        <a href="#">Help</a>
+      </div>
+      <div class="col install">
+        <h4>Install App</h4>
+        <p>From App Store or Google Play</p>
+        <div class="row">
+          <img src="img/pay/appstore.png" alt="" />
+          <img src="img/pay/googleplay.png" alt="" />
+        </div>
+        <p>Secured Payment Gateways</p>
+        <img src="img/pay/pay.png" alt="" />
+      </div>
+      <div class="copyright">
+        <p>&copy; 2022 ivgrosu. All rigts reserved.</p>
+      </div>
+    </footer>
+    <script src="cart.js"></script>
+  </body>
+</html>
